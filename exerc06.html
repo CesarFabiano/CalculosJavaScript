@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Trabalho 5</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="scripts/script.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<form action="exerc01.html" autocomplete="off">
+			<div class="container">
+				<div>					
+					<h3>Exerc 06 - Mostrar saldo devedor</h3>
+				</div>
+				<div>
+					<label for="totalParcelas">Total parcelas:</label>
+					<input type="text" name="totalParcelas" value="" id="totalParcelas" autofocus="on">
+				</div>
+				<div>
+					<label for="parcelasPagas">Quantidades pagas:</label>
+					<input type="text" name="parcelasPagas" value="" id="parcelasPagas">
+				</div>
+				<div>
+					<label for="valorParcelas">Valor parcelas:</label>
+					<input type="text" name="valorParcelas" value="" id="valorParcelas">
+				</div>
+				<div>	
+					<label for="saldoDevedor">Saldo devedor: R$</label>
+					<input class="input-style" type="text" name="saldoDevedor" value="" id="saldoDevedor" readonly="true">
+				</div>
+				<div>	
+					<label for="parcelasRestantes">Parcelas restantes:</label>
+					<input class="input-style" type="text" name="parcelasRestantes" value="" id="parcelasRestantes" readonly="true">
+				</div>
+				<div>
+					<button type="reset" value="Submit" onclick="mostrarSaldo();">Calcular</button>
+					<button type="reset" value="Reset">Limpar</button>
+					<a href="exerc07.html">Próximo trabalho</a>
+				</div>
+			</div>
+		</form>
+	</body>
+</html>

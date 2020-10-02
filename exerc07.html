@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Trabalho 5</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<script src="scripts/script.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<form action="exerc01.html" autocomplete="off">
+			<div class="container">
+				<div>					
+					<h3>Exerc 07 - Total de vendas</h3>
+				</div>
+				<div class="column-9 column input">
+					<label class="label">Sabor</label>
+					<label class="label">Preço R$</label>
+					<label class="label">Quant. Vendas</label>
+					<label class="label">Total parcial</label>
+				</div>
+				<div class="row">
+					<div class="column-3 column label">
+						<label for="quantidadeFruta">Fruta:</label>
+					</div>
+					<div class="column-9 column input">
+						<input type="text" name="valorFruta" value="2.50" id="valorFruta" readonly="true">
+						<input type="number" name="quantidadeFruta" id="quantidadeFruta" autofocus="on">
+						<input type="text" name="totalFruta" id="totalFruta" value="" readonly="true">
+					</div>
+				</div>
+				<div class="row">
+					<div class="column-3 column label">
+						<label for="quantidadeCremoso">Cremoso:</label>
+					</div>
+					<div class="column-9 column input">
+						<input type="text" name="valorCremoso" value="3.50" id="valorCremoso" readonly="true">
+						<input type="number" name="quantidadeCremoso" id="quantidadeCremoso">
+						<input type="text" name="totalCremoso" id="totalCremoso" value="" readonly="true">
+					</div>
+				</div>
+				<div class="row">
+					<div class="column-3 column label">
+						<label for="quantidadeRecheado">Recheados:</label>
+					</div>
+					<div class="column-9 column input">
+						<input type="text" name="valorRecheado" value="4.50" id="valorRecheado" readonly="true">
+						<input type="number" name="quantidadeRecheado" id="quantidadeRecheado">
+						<input type="text" name="totalRecheado" id="totalRecheado" value="" readonly="true">
+					</div>
+				</div>
+				<div class="row">	
+					<div class="column-3 column label">
+						<label for="totalVendas">Total de vendas:</label>
+					</div>
+					<div class="column-9 column input">
+						<input class="input-style" type="text" name="totalVendas" value="" id="totalVendas" readonly="true">
+					</div>
+				</div>
+				<div class="row">
+					<button type="reset" value="Submit" onclick="calculaTotal();">Calcular</button>
+					<button type="reset" value="Reset">Limpar</button>
+					<a href="exerc01.html">Iniciar novamente</a>
+				</div>
+			</div>
+		</form>
+	</body>
+</html>
