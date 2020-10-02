@@ -11,19 +11,31 @@
 				<div>					
 					<h3>Exerc 01 - Somar valores</h3>
 				</div>
-				<div>	
-					<label for="resultado">Resultado:</label>
-					<input class="input-style" type="text" name="resultado" value="" id="resultado" readonly="true">
+				<div class="row">	
+					<div class="column-3 column label">
+						<label for="resultado">Resultado:</label>
+					</div>
+					<div class="column-9 column input">
+						<input class="input-style" type="text" name="resultado" value="" id="resultado" readonly="true">
+					</div>
 				</div>
-				<div>
-					<label for="valor1">Valor 1:</label>
-					<input type="text" name="valor1" value="" id="valor1" autofocus="on">
+				<div class="row">
+					<div class="column-3 column label">
+						<label for="valor1">Valor 1:</label>
+					</div>
+					<div class="column-9 column input">
+						<input type="text" name="valor1" value="" id="valor1" autofocus="on">
+					</div>
 				</div>
-				<div>
-					<label for="valor2">Valor 2:</label>
-					<input type="text" name="valor2" value="" id="valor2">
+				<div class="row">
+					<div class="column-3 column label">
+						<label for="valor2">Valor 2:</label>
+					</div>
+					<div class="column-9 column input">
+						<input type="text" name="valor2" value="" id="valor2">
+					</div>
 				</div>
-				<div>
+				<div class="row">
 					<button type="reset" value="Submit" onclick="Calcular('valor1', 'valor2');">Calcular</button>
 					<button type="reset" value="Reset">Limpar</button>
 					<a href="exerc02.html">Próximo trabalho</a>
