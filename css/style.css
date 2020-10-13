@@ -1,4 +1,4 @@
-*{
+* {
 	border: 0;
 	margin: 0;
 	padding: 0;  
@@ -14,8 +14,8 @@ a{
   	margin: 4px 2px;
   	cursor: pointer;
 }
-body{
-	background-color: #232323;
+body {
+	background-color: #ff7300;
 	color: #ffffff;
 	position: fixed;
     top: 0px;
@@ -25,7 +25,7 @@ body{
     margin: 0px;
     padding: 0px;
 }
-button{
+button {
   border: none;
   border-radius: 5px;
   padding: 15px 32px;
@@ -36,29 +36,43 @@ button{
   margin: 4px 2px;
   cursor: pointer;
 }
-h3{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	margin-top: 20px;
-	margin-bottom: 20px;
+    margin-bottom: 20px;
+    margin-left: 30%;
+    font-size: 30px;
 }
-/*
-.label{
-	padding-right: 4%;
+input {
+    border-radius: 5px;
 }
-.container{
-	background-color: #494949;
-	width: 50%;
-	margin: auto;
-	font-family: Verdana;
-	font-size: 16px;
-	min-height: 400px;
-}*/
-.input-style{
+a:hover {
+    color: #232323;
+    background-color: #ffc290;
+    transition: 0.3s;
+    background: linear-gradient(202deg,transparent 10%,#ffc290);
+}
+button:hover {
+    color: #232323;
+    background-color: #ffc290;
+    transition: 0.3s;
+    background: linear-gradient(202deg,transparent 10%,#ffc290);
+}
+.a-block {
+    display: block;
+}
+.input-style {
 	font-family: monospace;
 	font-size: 30px;
 	max-width: 20%;
-	font-style:bold;
+	font-style: bold;
 }
-.container{
+.container {
+    background-color: #000000;
     position: absolute;
     top: 0px;
     right: 0px;
@@ -71,28 +85,33 @@ h3{
     padding: 20px;
     box-sizing: border-box;
 }
-.label{
+.label {
     padding-top: 7px;   
 }
-.label:after{
+.label:after {
     padding-right: 5px;
 }
-.column{
+.column {
     float: left;
     height: 41px;    
 }
-.input input{
+.input input {
     width: 20%;
     height: 34px;    
     padding-left: 5px;
     box-sizing: border-box;
 }
-.row{
+.row {
 	clear: both;
 }
-.column-3{    
-	width: 25%;    
+.row-btn {
+    width: 60%;
+    clear: both;
+    margin: auto;
 }
-.column-9{    
+.column-3 {    
+	width: 20%;    
+}
+.column-9 {    
 	width: 75%;    
 }
